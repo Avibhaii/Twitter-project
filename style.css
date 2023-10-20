@@ -151,6 +151,7 @@ body {
 #btn-signup:hover {
   background-color: rgb(89, 89, 153);
   scale: 105%;
+  text-decoration: none;
 }
 #btn-login {
   font-size: 1.4rem;
@@ -200,7 +201,7 @@ body {
   height: 100vh;
   display: none;
   /* todo: to not display the log in page*/
-  display: grid;
+  /* display: grid; */
   grid-template-columns: minmax(5rem, 1fr) 2fr minmax(5rem, 1fr);
   grid-template-rows: repeat(2, min-content) 1fr;
   grid-gap: 1.5rem;
@@ -1739,16 +1740,12 @@ body {
 }
 /* * end of responsive page */
 /* sign up page */
-.sign-up-section {
-  display: none;
-}
+
 /* end sign up page */
 
 
-/* 
-  
-*/
-#silink {
+
+/* completed */
+#silink{
   text-decoration: none;
 }
-/* completed */
