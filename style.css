@@ -190,6 +190,13 @@ body {
   font-size: 1.3rem;
   color: #444;
   font-weight: 300;
+  transform: all 0.3s;
+}
+
+.main-page-footer a:hover {
+  color: #1aa1f5;
+  scale: 200%;
+  font-weight: bold;
 }
 /* *end of footer */
 
@@ -1742,7 +1749,6 @@ body {
 /* sign up page */
 
 /* end sign up page */
-
 
 
 /* completed */
